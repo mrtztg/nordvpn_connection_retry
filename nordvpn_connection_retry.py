@@ -16,4 +16,3 @@ for country in countries:
         print(f'connected to {country}')
         break
     print('stdout:' + connect_output.stdout)
-    print('stderr:' + connect_output.stderr)
