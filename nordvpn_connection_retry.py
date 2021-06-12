@@ -16,4 +16,4 @@ for country in countries:
         print(f'connected to {country}')
         break
     a = "\n".join(list(filter(lambda x: len(x) > 2, connect_output.stdout.splitlines())))
-    print('stdout:' + connect_output.stdout)
+    print(a)
